@@ -90,16 +90,31 @@ class CCustomer
 class CRig
 {
   public:
-    static void              Solve                         ( ACVUTCoin         x );
-    static void              Solve                         ( AFITCoin          x );
-  
-                             CRig                          ( void );
-                             ~CRig                         ( void );
-    void                     Start                         ( int               thrCnt );
-    void                     Stop                          ( void );
-    void                     AddCustomer                   ( ACustomer         c );
+    static void Solve(ACVUTCoin x){
+
+    }
+    static void Solve(AFITCoin x){
+
+    }
+    CRig(void){
+
+    }
+    ~CRig(void){
+
+    }
+    void Start(int thrCnt){
+
+    }
+    void Stop(void){
+
+    }
+    void AddCustomer(ACustomer c){
+
+    }
   private:
     // todo
+    // add vector
+    // add mutex
 };
 
 #ifndef __PROGTEST__
