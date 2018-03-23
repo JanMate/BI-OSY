@@ -126,7 +126,7 @@ void               TestSequential                          ( void )
     CRig::Solve ( x );
     c . FITCoinAccept ( x );
   }
-
+  
   for ( ACVUTCoin x = c . CVUTCoinGen (); x ; x = c . CVUTCoinGen () )
   {
     CRig::Solve ( x );
